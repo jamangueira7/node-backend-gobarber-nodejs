@@ -23,6 +23,7 @@
         "prettier"
     ],
     "rules": {
+        "@typescript-eslint/camelcase": "off",
         "settings": {
           "import/resolver": {
             "typescript": {}

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="" />
+    <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/sessions.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/users.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/AuthenticateUserService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/CreateUserService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/1604711838206-CreateAppointments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/1604711838206-CreateAppointments.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Appointment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Appointment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/appiontments.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/appiontments.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CreateAppointmentService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +29,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jn9JbF9qiBFWBtbKB1iuwMnCnW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,7 +44,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -29,6 +54,13 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\services" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\routes" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\models" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.node-backend-2">
     <configuration name="node-backend-2 JavaScript" type="JavascriptDebugType" uri="http://localhost:3333/">
@@ -57,6 +89,7 @@
       <workItem from="1604430807605" duration="894000" />
       <workItem from="1604431736330" duration="21948000" />
       <workItem from="1604710317819" duration="3754000" />
+      <workItem from="1604760111978" duration="6082000" />
     </task>
     <servers />
   </component>
@@ -85,22 +118,22 @@
     </state>
     <state x="2858" y="279" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604686627504" />
     <state x="579" y="223" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604669369813" />
-    <state width="1431" height="277" key="GridCell.Tab.0.bottom" timestamp="1604710265844">
+    <state width="981" height="224" key="GridCell.Tab.0.bottom" timestamp="1604763710489">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="277" key="GridCell.Tab.0.bottom/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604710265844" />
-    <state width="1431" height="277" key="GridCell.Tab.0.center" timestamp="1604710265844">
+    <state width="981" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604763710489" />
+    <state width="981" height="224" key="GridCell.Tab.0.center" timestamp="1604763710487">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="277" key="GridCell.Tab.0.center/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604710265844" />
-    <state width="1431" height="277" key="GridCell.Tab.0.left" timestamp="1604710265844">
+    <state width="981" height="224" key="GridCell.Tab.0.center/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604763710487" />
+    <state width="981" height="224" key="GridCell.Tab.0.left" timestamp="1604763710487">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="277" key="GridCell.Tab.0.left/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604710265844" />
-    <state width="1431" height="277" key="GridCell.Tab.0.right" timestamp="1604710265844">
+    <state width="981" height="224" key="GridCell.Tab.0.left/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604763710487" />
+    <state width="981" height="224" key="GridCell.Tab.0.right" timestamp="1604763710488">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="277" key="GridCell.Tab.0.right/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604710265844" />
+    <state width="981" height="224" key="GridCell.Tab.0.right/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604763710488" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1604710265844">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
