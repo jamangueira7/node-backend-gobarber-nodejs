@@ -2,54 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/appointments/dtos/ICreateAppointmentIDTO.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/AppointmentsController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/appointments/repositories/IAppointmentsRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/dtos/ICreateUserDTO.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/SessionsController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UserAvatarController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UsersController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/repositories/UsersRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/repositories/IUsersRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/fakes/FakeHashProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/implementations/BCryptHashProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/models/IHashProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/repositories/fakes/FakeUsersRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/fakes/FakeStorageProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/implementations/DiskStorageProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/models/IStorageProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/gostack_gobarber.QwHgSA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f4124e49-9e64-45b5-b03c-703607696056/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ormconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ormconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/1604711838206-CreateAppointments.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604711838206-CreateAppointments.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/1604760294236-CreateUsers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604760294236-CreateUsers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/1604761272691-AlterProviderFildToProviderId.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604761272691-AlterProviderFildToProviderId.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/migrations/1604785213357-AddAvatarFieldToUsers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604785213357-AddAvatarFieldToUsers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/errors/AppError.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/errors/AppError.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/ensureAuthenticated.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/middlewares/ensureAuthenticated.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Appointment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/entities/Appointment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/typeorm/entities/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/appiontments.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/appiontments.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/sessions.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/sessions.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/users.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/users.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/AuthenticateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/CreateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/UpdateUserAvatarService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/upload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/upload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -76,7 +50,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/users/infra" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/users/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\services" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
@@ -135,7 +109,7 @@
       <workItem from="1605302819871" duration="1097000" />
       <workItem from="1605923154439" duration="436000" />
       <workItem from="1606169340075" duration="2826000" />
-      <workItem from="1606173306044" duration="12262000" />
+      <workItem from="1606173306044" duration="24671000" />
     </task>
     <servers />
   </component>
@@ -148,10 +122,10 @@
     </state>
     <state x="2307" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604795890471" />
     <state x="254" y="87" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604712515203" />
-    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606236923010">
+    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606356894919">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606236923010" />
+    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606356894919" />
     <state x="579" y="173" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604442315146">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -249,10 +223,14 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1606255034029">
+    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1606357645802">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604800069808" />
-    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606255034029" />
+    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606357645802" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606350055437">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606350055437" />
   </component>
 </project>
