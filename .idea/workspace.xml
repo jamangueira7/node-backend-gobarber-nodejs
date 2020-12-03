@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/fakes/FakeHashProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/implementations/BCryptHashProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/HashProvider/models/IHashProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/providers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/repositories/fakes/FakeUsersRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/fakes/FakeStorageProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/implementations/DiskStorageProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/models/IStorageProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/fakes/FakeMailProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/models/IMailProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/upload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/upload.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +52,19 @@
     <property name="ts.external.directory.path" value="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\routes" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\typeorm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.node-backend-2">
@@ -109,7 +99,9 @@
       <workItem from="1605302819871" duration="1097000" />
       <workItem from="1605923154439" duration="436000" />
       <workItem from="1606169340075" duration="2826000" />
-      <workItem from="1606173306044" duration="24671000" />
+      <workItem from="1606173306044" duration="25270000" />
+      <workItem from="1606401502315" duration="1861000" />
+      <workItem from="1606737468600" duration="2425000" />
     </task>
     <servers />
   </component>
@@ -138,11 +130,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="668" y="218" key="EnvironmentVariablesDialog/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604442293260" />
-    <state x="579" y="223" key="FileChooserDialogImpl" timestamp="1606170266394">
+    <state x="579" y="223" key="FileChooserDialogImpl" timestamp="1606737811563">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2858" y="279" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604795864738" />
-    <state x="579" y="223" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606170266394" />
+    <state x="579" y="223" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606737811563" />
     <state width="981" height="224" key="GridCell.Tab.0.bottom" timestamp="1606169711787">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
