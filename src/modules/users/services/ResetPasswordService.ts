@@ -1,45 +1,43 @@
 import { injectable, inject } from 'tsyringe';
-import IHashProvider from '@modules/users/providers/HashProvider/models/IHashProvider';
-import UsersRepository from '@modules/users/infra/http/repositories/UsersRepository';
+import AppError from '@shared/errors/AppError';
 
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
-import User from "@modules/users/infra/typeorm/entities/User";
-import AppError from "@shared/errors/AppError";
+import IUserTokensRepository from '@modules/users/repositories/IUserTokensRepository';
 
 
 interface IRequest {
-    name: string;
-    email: string;
+    token: string;
     password: string;
 }
 
 @injectable()
-class CreateUserService {
+class ResetPasswordService {
     constructor(
         @inject('UsersRepository')
         private usersRepository: IUsersRepository,
 
-        @inject('HashProvider')
-        private hashProvider: IHashProvider,
+        @inject('UserTokensRepository')
+        private userTokensRepository: IUserTokensRepository,
     ) {}
 
-    public async execute({ name, email, password } : IRequest): Promise<User> {
-        const checkUserExists = await this.usersRepository.findByEmail(email);
+    public async execute({ token, password } : IRequest): Promise<void> {
+        const userToken = await this.userTokensRepository.findByToken(token);
 
-        if(checkUserExists) {
-            throw new AppError('Email address already used.');
+        if(!userToken) {
+            throw new AppError('User token does not exists')
         }
 
-        const hashedPassword = await this.hashProvider.generateHash(password);
+        const user = await this.usersRepository.findById(userToken.user_id)
 
-        const user = await this.usersRepository.create({
-            name,
-            email,
-            password: hashedPassword,
-        });
+        if(!user) {
+            throw new AppError('User does not exists')
+        }
 
-        return user;
+        user.password = password;
+
+        await this.usersRepository.save(user);
+
     }
 }
 
-export default CreateUserService;
+export default ResetPasswordService;

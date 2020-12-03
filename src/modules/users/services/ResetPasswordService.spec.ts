@@ -1,45 +1,40 @@
-import { injectable, inject } from 'tsyringe';
-import IHashProvider from '@modules/users/providers/HashProvider/models/IHashProvider';
-import UsersRepository from '@modules/users/infra/http/repositories/UsersRepository';
+import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
+import FakeUserTokensRepository from '@modules/users/repositories/fakes/FakeUserTokensRepository';
+import ResetPasswordService from '@modules/users/services/ResetPasswordService';
+import AppError from '@shared/errors/AppError';
 
-import IUsersRepository from '@modules/users/repositories/IUsersRepository';
-import User from "@modules/users/infra/typeorm/entities/User";
-import AppError from "@shared/errors/AppError";
+let fakeUser: FakeUsersRepository;
+let fakeUserTokens: FakeUserTokensRepository;
+let resetPasswordService: ResetPasswordService;
 
+describe('SendForgotPasswordEmail', () => {
+    beforeEach(() => {
+        fakeUser = new FakeUsersRepository();
+        fakeUserTokens = new FakeUserTokensRepository()
 
-interface IRequest {
-    name: string;
-    email: string;
-    password: string;
-}
+        resetPasswordService = new ResetPasswordService(
+            fakeUser,
+            fakeUserTokens,
+        );
+    });
 
-@injectable()
-class CreateUserService {
-    constructor(
-        @inject('UsersRepository')
-        private usersRepository: IUsersRepository,
-
-        @inject('HashProvider')
-        private hashProvider: IHashProvider,
-    ) {}
-
-    public async execute({ name, email, password } : IRequest): Promise<User> {
-        const checkUserExists = await this.usersRepository.findByEmail(email);
-
-        if(checkUserExists) {
-            throw new AppError('Email address already used.');
-        }
-
-        const hashedPassword = await this.hashProvider.generateHash(password);
-
-        const user = await this.usersRepository.create({
-            name,
-            email,
-            password: hashedPassword,
+    it('should be able to reset the password', async () => {
+        const user =await fakeUser.create({
+            name: 'John Doe',
+            email: 'john.doe@gamil.com',
+            password: '123456',
         });
 
-        return user;
-    }
-}
+        const { token } = await fakeUserTokens.generate(user.id);
 
-export default CreateUserService;
+        await resetPasswordService.execute({
+            password: '123123',
+            token,
+        });
+
+        const updateUser = await fakeUser.findById(user.id);
+
+        expect(updateUser?.password).toBe('123123');
+    });
+
+});
