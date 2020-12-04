@@ -8,11 +8,11 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/repositories/IUserTokensRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/repositories/IUserTokensRepository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/repositories/fakes/FakeUserTokensRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/repositories/fakes/FakeUserTokensRepository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/services/ResetPasswordService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/ResetPasswordService.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/services/ResetPasswordService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/ResetPasswordService.ts" afterDir="false" />
@@ -101,7 +101,7 @@
       <workItem from="1606169340075" duration="2826000" />
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
-      <workItem from="1606737468600" duration="7961000" />
+      <workItem from="1606737468600" duration="9641000" />
     </task>
     <servers />
   </component>

@@ -10,9 +10,11 @@ class FakeUserTokensRepository implements IUserTokensRepository {
         const userToken = new UserToken();
 
         Object.assign(userToken, {
-           id: uuid(),
-           token: uuid(),
-           user_id: user_id,
+            id: uuid(),
+            token: uuid(),
+            user_id: user_id,
+            created_at: new Date(),
+            updated_at: new Date(),
         });
 
         this.userTokens.push(userToken);
