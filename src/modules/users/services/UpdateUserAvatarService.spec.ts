@@ -3,14 +3,21 @@ import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepo
 import UpdateUserAvatarService from '@modules/users/services/UpdateUserAvatarService';
 import AppError from '@shared/errors/AppError';
 
-describe('UpdateUserAvatar', () => {
-    it('should be able to update avatar to user', async () => {
-        const fakeStorageProvider = new FakeStorageProvider();
-        const fakeUser = new FakeUsersRepository();
+let fakeStorageProvider: FakeStorageProvider;
+let fakeUser: FakeUsersRepository;
+let updateUserAvatar: UpdateUserAvatarService;
 
-        const updateUserAvatar = new UpdateUserAvatarService(
+describe('UpdateUserAvatar', () => {
+    beforeEach(() => {
+        fakeStorageProvider = new FakeStorageProvider();
+        fakeUser = new FakeUsersRepository();
+
+        updateUserAvatar = new UpdateUserAvatarService(
             fakeUser, fakeStorageProvider,
         );
+    });
+
+    it('should be able to update avatar to user', async () => {
 
         const user = await fakeUser.create({
             name: 'John Doe',
@@ -27,12 +34,6 @@ describe('UpdateUserAvatar', () => {
     });
 
     it('should not be able to update avatar with non existing user', async () => {
-        const fakeStorageProvider = new FakeStorageProvider();
-        const fakeUser = new FakeUsersRepository();
-
-        const updateUserAvatar = new UpdateUserAvatarService(
-            fakeUser, fakeStorageProvider,
-        );
 
         await expect(updateUserAvatar.execute({
             user_id: 'non-existing-user',

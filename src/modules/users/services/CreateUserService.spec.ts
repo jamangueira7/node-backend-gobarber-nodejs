@@ -3,13 +3,20 @@ import CreateUserService from '@modules/users/services/CreateUserService';
 import AppError from '@shared/errors/AppError';
 import FakeHashProvider from '@modules/users/providers/HashProvider/fakes/FakeHashProvider';
 
+let fakeUser: FakeUsersRepository;
+let fakeHash: FakeHashProvider;
+let createUser: CreateUserService;
+
 describe('CreateUser', () => {
-    it('should be able to create a new user', async () => {
-        const fakeUser = new FakeUsersRepository();
-        const fakeHash = new FakeHashProvider();
-        const createUser = new CreateUserService(
+    beforeEach(() => {
+        fakeUser = new FakeUsersRepository();
+        fakeHash = new FakeHashProvider();
+        createUser = new CreateUserService(
             fakeUser, fakeHash,
         );
+    });
+
+    it('should be able to create a new user', async () => {
 
         const user = await createUser.execute({
             name: 'John Doe',
@@ -20,11 +27,6 @@ describe('CreateUser', () => {
         expect(user).toHaveProperty('id');
     });
     it('should not be able to create a new user with sema email from another', async () => {
-        const fakeUser = new FakeUsersRepository();
-        const fakeHash = new FakeHashProvider();
-        const createUser = new CreateUserService(
-            fakeUser, fakeHash,
-        );
 
        await createUser.execute({
             name: 'John Doe',

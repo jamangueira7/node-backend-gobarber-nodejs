@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/users/views/forgot_password.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/dtos/IParseMailTemplateDTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/dtos/IParseMailTemplateDTO.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/fakes/FakeMailTemplateProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/fakes/FakeMailTemplateProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/implementations/HandlebarsMailTemplateProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/implementations/HandlebarsMailTemplateProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="4232000" />
+      <workItem from="1607090388677" duration="5242000" />
     </task>
     <servers />
   </component>
