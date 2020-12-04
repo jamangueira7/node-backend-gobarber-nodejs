@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ForgotPasswordController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ResetPasswordController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/repositories/UserTokensRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/password.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations/EtherealMailProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ForgotPasswordController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ForgotPasswordController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +96,7 @@
       <workItem from="1606169340075" duration="2826000" />
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
-      <workItem from="1606737468600" duration="11758000" />
+      <workItem from="1606737468600" duration="15609000" />
     </task>
     <servers />
   </component>
@@ -208,14 +210,18 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1607032799044">
+    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1607052274705">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604800069808" />
-    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607032799044" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607035137473">
+    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607052274705" />
+    <state x="442" y="159" width="700" height="530" key="recent.locations.popup" timestamp="1607049712282">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607035137473" />
+    <state x="442" y="159" width="700" height="530" key="recent.locations.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607049712282" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607051874924">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607051874924" />
   </component>
 </project>

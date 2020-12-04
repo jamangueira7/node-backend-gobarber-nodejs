@@ -14,4 +14,4 @@ import UserTokensRepository from '@modules/users/infra/http/repositories/UserTok
 
 container.registerSingleton<IAppointmentsRepository>('AppointmentsRepository', AppointmentsRepository);
 container.registerSingleton<IUsersRepository>('UsersRepository', UsersRepository);
-container.registerSingleton<IUserTokensRepository>('UsersRepository', UserTokensRepository);
+container.registerSingleton<IUserTokensRepository>('UserTokensRepository', UserTokensRepository);

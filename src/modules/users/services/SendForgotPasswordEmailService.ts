@@ -6,7 +6,6 @@ import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
 import IUserTokensRepository from '@modules/users/repositories/IUserTokensRepository';
 
-
 interface IRequest {
     email: string;
 }
@@ -31,11 +30,11 @@ class SendForgotPasswordEmailService {
             throw new AppError('User does not exists.');
         }
 
-        await this.userTokensRepository.generate(user.id);
+        const { token } =await this.userTokensRepository.generate(user.id);
 
-        this.mailProvider.sendMail(
+        await this.mailProvider.sendMail(
             email,
-            'Pedido de recuperação de senha recebido',
+            `Pedido de recuperação de senha recebido: ${token}`,
         );
     }
 }
