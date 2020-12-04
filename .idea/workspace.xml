@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations/EtherealMailProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/dtos/ISendMailDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/dtos/IParseMailTemplateDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/fakes/FakeMailTemplateProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/implementations/HandlebarsMailTemplateProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailTemplateProvider/models/IMailTemplateProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ForgotPasswordController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ForgotPasswordController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/fakes/FakeMailProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/fakes/FakeMailProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations/EtherealMailProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations/EtherealMailProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/models/IMailProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/models/IMailProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +40,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/users/infra/http/repositories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/shared/container/providers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,19 +52,19 @@
     <property name="ts.external.directory.path" value="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\repositories" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\controllers" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\routes" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\typeorm" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\repositories" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\controllers" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\repositories\fakes" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.node-backend-2">
@@ -97,6 +102,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
+      <workItem from="1607090388677" duration="3212000" />
     </task>
     <servers />
   </component>
@@ -210,11 +216,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1607052274705">
+    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1607095228234">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604800069808" />
-    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607052274705" />
+    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607095228234" />
     <state x="442" y="159" width="700" height="530" key="recent.locations.popup" timestamp="1607049712282">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
