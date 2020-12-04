@@ -35,10 +35,12 @@ describe('UpdateUserAvatar', () => {
 
     it('should not be able to update avatar with non existing user', async () => {
 
-        await expect(updateUserAvatar.execute({
-            user_id: 'non-existing-user',
-            avatarFilename: 'avatar.jpg',
-        })).rejects.toBeInstanceOf(AppError);
+        await expect(
+            updateUserAvatar.execute({
+                user_id: 'non-existing-user',
+                avatarFilename: 'avatar.jpg',
+            })
+        ).rejects.toBeInstanceOf(AppError);
     });
 
     it('should delete ol avatar when updating new on ', async () => {

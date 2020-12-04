@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateProfileService.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateProfileService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ProfileController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/profile.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/ShowProfileService.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/users/services/ShowProfileService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
@@ -12,9 +14,13 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/UpdateProfileService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateProfileService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/UpdateUserAvatarService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +59,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\services" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\repositories" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\controllers" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\infra\http\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
@@ -101,7 +107,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="7284000" />
+      <workItem from="1607090388677" duration="8958000" />
     </task>
     <servers />
   </component>
@@ -224,10 +230,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="442" y="159" width="700" height="530" key="recent.locations.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607049712282" />
-    <state x="456" y="197" width="672" height="677" key="run.anything.popup" timestamp="1607105696445">
+    <state x="456" y="197" width="672" height="677" key="run.anything.popup" timestamp="1607107388853">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="456" y="197" width="672" height="677" key="run.anything.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607105696445" />
+    <state x="456" y="197" width="672" height="677" key="run.anything.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607107388853" />
     <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607051874924">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
