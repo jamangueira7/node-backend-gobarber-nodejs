@@ -18,16 +18,9 @@
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/dtos/ICreateAppointmentIDTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/dtos/ICreateAppointmentIDTO.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/AppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/AppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/entities/Appointment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/entities/Appointment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/repositories/fakes/FakeAppointmentsRepository.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderDayAvailabilityService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderDayAvailabilityService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604761272691-AlterProviderFildToProviderId.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1604761272691-AlterProviderFildToProviderId.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="20594000" />
+      <workItem from="1607090388677" duration="22433000" />
     </task>
     <servers />
   </component>
@@ -228,11 +221,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="549" height="534" key="find.popup" timestamp="1607095228234">
+    <state x="258" y="218" width="610" height="534" key="find.popup" timestamp="1607128560759">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604800069808" />
-    <state x="258" y="218" width="549" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607095228234" />
+    <state x="258" y="218" width="610" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607128560759" />
     <state x="442" y="159" width="700" height="530" key="recent.locations.popup" timestamp="1607049712282">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
