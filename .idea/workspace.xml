@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderDayAvailabilityController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderMonthAvailabilityController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderMonthAvailabilityService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/providers.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/providers.routes.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +30,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/appointments/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,10 +43,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\controllers" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\dtos" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\routes" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\controllers" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\users\dtos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -107,7 +92,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="22433000" />
+      <workItem from="1607090388677" duration="22990000" />
     </task>
     <servers />
   </component>
@@ -234,9 +219,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="456" y="197" width="672" height="677" key="run.anything.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607107388853" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607051874924">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607130355438">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607051874924" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607130355438" />
   </component>
 </project>
