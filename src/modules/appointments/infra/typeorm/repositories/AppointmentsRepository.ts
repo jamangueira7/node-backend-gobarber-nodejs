@@ -1,9 +1,9 @@
 import { getRepository, Repository, Raw } from 'typeorm';
 import {getDate, getMonth, getYear} from 'date-fns';
 
-import Appointment from "@modules/appointments/infra/typeorm/entities/Appointment";
+import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
 
-import IAppointmentsRepository from "@modules/appointments/repositories/IAppointmentsRepository";
+import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 import ICreateAppointmentIDTO from '@modules/appointments/dtos/ICreateAppointmentIDTO';
 import IFindAllInMonthFromProviderDTO from '@modules/appointments/dtos/IFindAllInMonthFromProviderDTO';
 import IFindAllInDayFromProviderDTO from '@modules/appointments/dtos/IFindAllInDayFromProviderDTO';
