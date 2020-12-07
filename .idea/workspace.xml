@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.exemple" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/appiontments.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/appiontments.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/providers.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/routes/providers.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/routes/password.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/password.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/routes/profile.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/profile.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/routes/sessions.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/sessions.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/routes/users.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/users.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/infra/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="DatabaseDriversLRU" value="postgresql&#10;mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/notifications" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\notifications" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\controllers" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\dtos" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\routes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
@@ -98,7 +100,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="31698000" />
+      <workItem from="1607090388677" duration="32153000" />
     </task>
     <servers />
   </component>
@@ -229,9 +231,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="456" y="197" width="672" height="677" key="run.anything.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607107388853" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607130355438">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607303602104">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607130355438" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607303602104" />
   </component>
 </project>
