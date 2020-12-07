@@ -47,7 +47,7 @@ BRF:10
 BRH:9
 end_of_record
 TN:
-SF:src\modules\appointments\services\ListProviderAppointments.Service.ts
+SF:src\modules\appointments\services\ListProviderAppointmentsService.ts
 FN:15,(anonymous_17)
 FN:16,ListProviderAppointmentsService
 FN:21,(anonymous_19)

@@ -1,7 +1,7 @@
 import AppError from '@shared/errors/AppError';
 import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUsersRepository';
 import FakeAppointmentsRepository from '@modules/appointments/repositories/fakes/FakeAppointmentsRepository';
-import ListProviderAppointmentsService from '@modules/appointments/services/ListProviderAppointments.Service';
+import ListProviderAppointmentsService from '@modules/appointments/services/ListProviderAppointmentsService';
 
 let listProviderAppointments: ListProviderAppointmentsService;
 let fakeAppointmentsRepository: FakeAppointmentsRepository;

@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/implementations/S3StorageProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.exemple" beforeDir="false" afterPath="$PROJECT_DIR$/.env.exemple" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/cache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointments.Service.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointments.Service.ts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/upload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/upload.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/routes/users.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/routes/users.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/typeorm/entities/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/typeorm/entities/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointments.Service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointments.Service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +43,7 @@
     <property name="DatabaseDriversLRU" value="postgresql&#10;mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/shared/container/providers/StorageProvider/implementations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,11 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\config" />
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\CacheProvider" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\StorageProvider\implementations" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\StorageProvider" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\MailTemplateProvider" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\MailProvider\implementations" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
@@ -101,7 +105,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="39191000" />
+      <workItem from="1607090388677" duration="41917000" />
     </task>
     <servers />
   </component>
@@ -114,10 +118,10 @@
     </state>
     <state x="2307" y="109" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604795890471" />
     <state x="254" y="87" width="1089" height="761" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607270410710" />
-    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606356894919">
+    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607379384004">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1606356894919" />
+    <state x="563" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607379384004" />
     <state x="579" y="173" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604442315146">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
