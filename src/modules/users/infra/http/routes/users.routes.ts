@@ -11,7 +11,7 @@ import ensureAuthenticated from '@modules/users/infra/http/middlewares/ensureAut
 const usersRouter = Router();
 const userAvatarController = new UserAvatarController();
 const usersController = new UsersController();
-const upload = multer(uploadConfig);
+const upload = multer(uploadConfig.multer);
 
 usersRouter.post('/', celebrate({
     [Segments.BODY]: {
