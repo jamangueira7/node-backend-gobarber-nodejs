@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/mail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations/SESMailProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.exemple" beforeDir="false" afterPath="$PROJECT_DIR$/.env.exemple" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ProfileController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/ProfileController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/SessionsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/SessionsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UserAvatarController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UserAvatarController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UsersController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/http/controllers/UsersController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/infra/typeorm/entities/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/infra/typeorm/entities/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +37,7 @@
     <property name="DatabaseDriversLRU" value="postgresql&#10;mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/shared/container/providers/MailProvider/implementations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\shared\container\providers\MailProvider\implementations" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\notifications" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\http\controllers" />
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\services" />
-      <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\dtos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\src\modules\appointments\infra\typeorm" />
@@ -100,7 +99,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="32827000" />
+      <workItem from="1607090388677" duration="34815000" />
     </task>
     <servers />
   </component>
