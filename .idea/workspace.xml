@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/fakes/FakeCacheProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/CreateAppointmentService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderDayAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderMonthAvailabilityService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProvidersService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/AuthenticateUserService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/CreateUserService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ResetPasswordService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/ShowProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateProfileService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/UpdateUserAvatarService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/AuthenticateUserService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/CreateAppointmentService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +92,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="45125000" />
+      <workItem from="1607090388677" duration="45248000" />
     </task>
     <servers />
   </component>
