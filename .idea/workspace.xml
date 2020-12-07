@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/cache.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointments.Service.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/ListProviderAppointments.Service.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/appointments/services/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointments.Service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointments.Service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="41917000" />
+      <workItem from="1607090388677" duration="42483000" />
     </task>
     <servers />
   </component>
