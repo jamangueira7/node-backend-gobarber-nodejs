@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/CreateUserService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/implementations/RadisCacheProvider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/providers/CacheProvider/models/ICacheProvider.ts" afterDir="false" />
     </list>
@@ -96,7 +95,7 @@
       <workItem from="1606173306044" duration="25270000" />
       <workItem from="1606401502315" duration="1861000" />
       <workItem from="1606737468600" duration="15609000" />
-      <workItem from="1607090388677" duration="42483000" />
+      <workItem from="1607090388677" duration="42854000" />
     </task>
     <servers />
   </component>
