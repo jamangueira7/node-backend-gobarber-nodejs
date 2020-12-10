@@ -1,5 +1,4 @@
 import { getRepository, Repository, Raw } from 'typeorm';
-import {getDate, getMonth, getYear} from 'date-fns';
 
 import Appointment from '@modules/appointments/infra/typeorm/entities/Appointment';
 
@@ -32,13 +31,13 @@ class AppointmentsRepository implements IAppointmentsRepository {
 
         const appointments = await this.ormRepository.find({
             where: {
-                provider_id: provider_id,
+                provider_id,
                 date: Raw(dateFieldName =>
-                    `to_char(${dateFieldName}, 'MM-YYYY') = ${parsedMonth}-${year}'`
+                    `to_char(${dateFieldName}, 'MM-YYYY') = '${parsedMonth}-${year}'`
                 ),
             },
         });
-
+        console.log("66666666666")
         return appointments;
     }
 
@@ -56,7 +55,7 @@ class AppointmentsRepository implements IAppointmentsRepository {
             where: {
                 provider_id: provider_id,
                 date: Raw(dateFieldName =>
-                    `to_char(${dateFieldName}, 'DD-MM-YYYY') = ${parsedDay}-${parsedMonth}-${year}'`
+                    `to_char(${dateFieldName}, 'DD-MM-YYYY') = '${parsedDay}-${parsedMonth}-${year}'`
                 ),
             },
         });
