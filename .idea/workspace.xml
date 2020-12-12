@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <workItem from="1607468253823" duration="406000" />
       <workItem from="1607469574922" duration="4959000" />
       <workItem from="1607637475173" duration="142000" />
-      <workItem from="1607727411802" duration="2967000" />
+      <workItem from="1607727411802" duration="3580000" />
     </task>
     <servers />
   </component>
