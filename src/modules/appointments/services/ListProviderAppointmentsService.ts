@@ -32,7 +32,7 @@ class ListProviderAppointmentsService {
                 provider_id,
                 day,
                 month,
-                year
+                year,
             });
 
             await this.cacheProvider.save(cacheKey, classToClass(appointments));

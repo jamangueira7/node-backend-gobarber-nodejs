@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/lcov-report/users/services/SendForgotPasswordEmailService.ts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/services/SendForgotPasswordEmailService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProviderAppointmentsController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/typeorm/repositories/AppointmentsRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProviderAppointmentsService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,8 @@
       <workItem from="1607090388677" duration="46395000" />
       <workItem from="1607468253823" duration="406000" />
       <workItem from="1607469574922" duration="4959000" />
-      <workItem from="1607637475173" duration="20000" />
+      <workItem from="1607637475173" duration="142000" />
+      <workItem from="1607727411802" duration="2967000" />
     </task>
     <servers />
   </component>
@@ -219,11 +221,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="610" height="534" key="find.popup" timestamp="1607614137348">
+    <state x="258" y="218" width="610" height="596" key="find.popup" timestamp="1607728885677">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1607469856725" />
-    <state x="258" y="218" width="610" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607614137348" />
+    <state x="258" y="218" width="610" height="596" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607728885677" />
     <state x="442" y="159" width="700" height="530" key="recent.locations.popup" timestamp="1607049712282">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
