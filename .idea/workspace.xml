@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c6a6ef9-5cb4-48f0-a339-76f8b4f2352a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProvidersController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/infra/http/controllers/ProvidersController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/appointments/services/ListProvidersService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="AtomAssocConfig" />
     <property name="ts.external.directory.path" value="D:\desenvolvimento\rocketseat\GoStack\node-backend-gobarber-nodejs\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,7 +101,13 @@
       <workItem from="1607469574922" duration="4959000" />
       <workItem from="1607637475173" duration="142000" />
       <workItem from="1607727411802" duration="3692000" />
-      <workItem from="1608067415419" duration="1092000" />
+      <workItem from="1608067415419" duration="2134000" />
+      <workItem from="1608251796362" duration="4102000" />
+      <workItem from="1608415955121" duration="2588000" />
+      <workItem from="1608684616555" duration="1803000" />
+      <workItem from="1608766063899" duration="592000" />
+      <workItem from="1609153147990" duration="599000" />
+      <workItem from="1609200456101" duration="2168000" />
     </task>
     <servers />
   </component>
@@ -132,11 +140,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="668" y="218" key="EnvironmentVariablesDialog/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604442293260" />
-    <state x="579" y="223" key="FileChooserDialogImpl" timestamp="1607611015105">
+    <state x="579" y="223" key="FileChooserDialogImpl" timestamp="1608689532009">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2858" y="279" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1604795864738" />
-    <state x="579" y="223" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607611015105" />
+    <state x="579" y="223" key="FileChooserDialogImpl/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1608689532009" />
     <state width="981" height="224" key="GridCell.Tab.0.bottom" timestamp="1607270839349">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -221,11 +229,11 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="699" y="293" key="com.intellij.database.actions.DdlActions$CreateObject$1/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1604711106045" />
-    <state x="258" y="218" width="610" height="596" key="find.popup" timestamp="1607728885677">
+    <state x="258" y="218" width="610" height="596" key="find.popup" timestamp="1609201693366">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="2314" y="273" width="585" height="534" key="find.popup/62.0.1474.864/1982.0.2498.1080@1982.0.2498.1080" timestamp="1607469856725" />
-    <state x="258" y="218" width="610" height="596" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607728885677" />
+    <state x="258" y="218" width="610" height="596" key="find.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1609201693366" />
     <state x="442" y="159" width="700" height="530" key="recent.locations.popup" timestamp="1607049712282">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -234,9 +242,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="456" y="197" width="672" height="677" key="run.anything.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607107388853" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1607303602104">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1608665115660">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1607303602104" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864/1982.0.2498.1080@62.0.1474.864" timestamp="1608665115660" />
   </component>
 </project>
