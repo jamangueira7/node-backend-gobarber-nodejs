@@ -21,7 +21,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Node.js](https://nodejs.org/en/) - v14.4.0
 - [Yarn](https://yarnpkg.com/) - 1.22.4
 - [Npm](https://www.npmjs.com/) - 6.14.5
-
+- [Docker](https://docs.docker.com/engine/reference/commandline/ps/) - 19.03.8
+- [MongoDB](https://www.mongodb.com/)
+- [Postgres](https://www.postgresql.org/)
+- [Redis](https://redis.io/)
 
 ## 💻 Projeto
 
@@ -435,10 +438,13 @@ Resposta:
 - Entre na pasta do projeto e rode yarn install (pode usar npm install de acordo com a sua configuração).
 - Rodar o Postgres com docker:
 docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+- Criar banco gostack_postgres.
 - Rodar o MongoDB com docker:
 docker run --name mongodb -p 27017:27017 -d -t mongo
+- Criar banco gobarber.
 - Rodar o Redis com docker:
 docker run --name redis -p 6379:6379 -d -t redis:alpine
+-Rodar migrates: yarn typeorm migration:run
 - yarn dev:server.
 
 ## 🤔 Como contribuir
