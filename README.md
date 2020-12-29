@@ -444,7 +444,7 @@ docker run --name mongodb -p 27017:27017 -d -t mongo
 - Criar banco gobarber.
 - Rodar o Redis com docker:
 docker run --name redis -p 6379:6379 -d -t redis:alpine
--Rodar migrates: yarn typeorm migration:run
+- Rodar migrates: yarn typeorm migration:run
 - yarn dev:server.
 
 ## 🤔 Como contribuir
